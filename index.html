@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Potter Books</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="./images/Logo.png" id="logo">
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="./images/shopping cart.png" id="img-cart">
+                            <div id="shopping-cart">
+                                    <table id="cart-content" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Image</th>
+                                                <th>Name</th>
+                                                <th>Price</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="clear-cart" class="button u-full-width">Clear Cart</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </header>  
+
+    <div class="main-bar">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icon icon1">
+                        <p>New Books available Daily</p>
+                    </div>
+                   
+                    <div class="four columns icon icon3">
+                        <p>Current Discounts: <br>
+                        Buy multiple Harry Potter Books for a Discount<br>
+                        *an additional 5% off each book to a max of 25% for all 5.</p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="courses-list" class="container">
+        <h1 id="heading" class="heading">Current Books</h1>
+        <h1 id="heading" class="heading">Harry Potter</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="./images/Item1.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Harry Potter and the Philosphers Stone</h4>
+                        <p>JK Rowling</p>
+                        <p>£8</p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="1">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="./images/Item2.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Harry Potter and the Chamber of Secrets</h4>
+                        <p>JK Rowling</p>
+                        <p>£8</p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="2">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="./images/Item3.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Harry Potter and the Prisoner of Azkaban</h4>
+                        <p>JK Rowling</p>
+                        <p>£8</p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="3">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="./images/Item4.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Harry Potter and the Goblet of Fire</h4>
+                        <p>JK Rowling</p>
+                        <p>£8</p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="4">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="./images/Item5.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Harry Potter and the Order of the Phoenix</h4>
+                        <p>JK Rowling</p>
+                        <p>£8</p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="5">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            </div>
+            <div class="row"></div>
+            <h1 id="heading" class="heading">Twilight</h1>
+            <div class="four columns">
+                <div class="card">
+                    <img src="./images/Item6.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Twilight</h4>
+                        <p>JK Rowling</p>
+                        <p>£8</p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="6">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+
+           
+            </div> <!--.row-->
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns">
+                            <nav id="primary" class="menu">                               
+                                <a class="link" href="#">Support</a>
+                                <a class="link" href="#">Contact Us</a>
+                            </nav>
+                    </div>
+                    <div class="four columns">
+                            <nav id="secondary" class="menu">
+                                <a class="link" href="#">About Us</a>                               
+                            </nav>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
