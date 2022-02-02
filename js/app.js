@@ -36,7 +36,7 @@ let addItem = (theObject, objectId) => {
   document
     .querySelectorAll("table#cart-content tbody")[0]
     .appendChild(tableRow);
-  /// And activated the delete item button
+  /// the delete item button
   buttonActivator();
 };
 
